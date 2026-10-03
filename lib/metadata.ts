@@ -4,13 +4,13 @@ export const siteConfig = {
   name: "Portfolio",
   description:
     "A modern, accessible portfolio template built with Next.js, Tailwind CSS, and TypeScript.",
-  url: "https://example.com",
+  url: "https://Ajay-Portfolio.com",
   ogImage: "/og-image.png",
   creator: "@yourhandle",
   authors: [
     {
       name: "Your Name",
-      url: "https://example.com",
+      url: "https://Ajay-Portfolio.com",
     },
   ],
   keywords: [
