@@ -1,5 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
 import type { ReactNode } from "react";
-
 type Entry = {
   school: string;
   degree: string;
@@ -9,19 +9,19 @@ type Entry = {
 
 const ENTRIES: Entry[] = [
   {
-    school: "Rhode Island School of Design",
-    degree: "BFA, Graphic Design",
-    period: "2013 – 2017",
+    school: "Ganna Gangothri School",
+    degree: "Primary",
+    period: "2012-2019",
   },
   {
-    school: "Stanford University",
-    degree: "HCI Certificate, d.school",
-    period: "2018",
+    school: "Govt High Scholl PU College Turuvanuru",
+    degree: "Middle School And PUC",
+    period: "2019-2024",
   },
   {
-    school: "Bruno Simon's Three.js Journey",
-    degree: "WebGL & Shaders",
-    period: "2022",
+    school: "Rao Bahadhur Y Mahabaleshwarappa Engineering College",
+    degree: "Engineering",
+    period: "2024-2028",
   },
 ];
 
