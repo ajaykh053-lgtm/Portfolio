@@ -23,14 +23,14 @@ export function Hero(): ReactNode {
 
             <h1 className="text-[2.75rem] font-medium leading-[1.05] tracking-tight text-foreground md:text-[2.5rem] lg:text-[3.65rem]">
               <span className="block whitespace-nowrap">
-                Python Developer &
+                Python Dev &
               </span>
               <span className="block whitespace-nowrap">AI enthusiast</span>
             </h1>
 
             <p className="max-w-[34ch] text-[22px] leading-[1.4] tracking-tight text-foreground/65">
-              Independent engineer focused on interfaces that feel calm,
-              considered, and quietly fast.
+              A Student Who<sup>,</sup>s Trying Do Something And,
+               Exploring Stuff, Doing Random Things.
             </p>
 
             <HeroCtas />
