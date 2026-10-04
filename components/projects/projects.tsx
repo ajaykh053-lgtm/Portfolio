@@ -1,11 +1,11 @@
 import {
+  Package,
   ArrowRight,
-  Bot,
-  Compass,
-  Layers,
-  LineChart,
-  Sparkles,
-  Wand2,
+  LucidePersonStanding,
+  NotebookPen,
+  Voicemail,
+  LucideSignpost,
+  Video,
 } from "lucide-react";
 import type { ComponentType, ReactNode } from "react";
 import Image from "next/image";
@@ -33,85 +33,88 @@ type Project = {
 
 const PROJECTS: Project[] = [
   {
-    id: "loom",
-    icon: Sparkles,
-    iconLabel: "LOOM",
+    id: "BlogPost",
+    icon: LucideSignpost,
+    iconLabel: "BlogPost",
     title:
-      "An AI writing companion that thinks alongside you, allowing you to capture ideas, edits, and drafts in one focused space.",
+      "A modern blog platform with a rich editor, instant publishing, and a reading experience readers actually enjoy.",
     description:
-      "I designed Loom, a focused writing surface where ideas, edits, and drafts coexist without the chat clutter.",
-    meta: "Design Engineer, 2024",
+      "I designed and developed a full-stack blog website where authors can draft in markdown, publish in one click, and readers can browse by topic, search posts, and engage through comments.",
+    meta: "Full-Stack Developer, 2026",
     imageRatio: 752 / 497,
     image:
-      "https://cdn.dribbble.com/userupload/46128964/file/b92b9d268dd928642ca94bd49e32923a.jpg?resize=752x497&vertical=center",
-    imageAlt: "Loom AI writing companion mockup",
+      "https://cdn.dribbble.com/userupload/44695858/file/1d27d81393f0fa564ff755bcae423e4a.jpg?resize=1504x1128&vertical=center",
+    imageAlt: "Blog Post Website Image",
   },
   {
-    id: "atlas",
-    icon: Compass,
-    iconLabel: "Atlas Studio",
-    title: "A two week brand and product sprint for a creative studio.",
+    id: "bootstrapwebpage",
+    icon: Package,
+    iconLabel: "Move It",
+    title:
+      "A responsive landing page that makes booking a move feel simple, friendly, and stress-free.",
     description:
-      "End to end identity, marketing site, and a small product surface designed to feel quietly confident across every touchpoint.",
-    meta: "Product & Brand Designer, 2025",
+      "I designed and built Move It, a mobile-first Bootstrap website for a moving startup, with a clear hero, service highlights, a testimonial carousel, and quote calls-to-action on every section.",
+    meta: "Frontend Developer, 2026",
     imageRatio: 1024 / 768,
     image:
-      "https://cdn.dribbble.com/userupload/24599416/file/original-1ae5075dcd129aebb16bdbca24b41ac7.png?resize=1024x768&vertical=center",
-    imageAlt: "Atlas Studio brand and product sprint mockup",
+      "https://cdn.dribbble.com/userupload/20306197/file/original-53a7d073839c95a801b8ee47f481a6d4.png?format=webp&resize=400x300&vertical=center",
+    imageAlt: "Web page Only Using The Bootstrap.",
   },
   {
-    id: "rhythm",
-    icon: LineChart,
-    iconLabel: "Rhythm",
-    title: "Calm analytics for indie founders.",
+    id: "oldprotfolio",
+    icon: LucidePersonStanding,
+    iconLabel: "Old Portfolio",
+    title:
+      "A clean, responsive developer portfolio that puts my projects, tech stack, and resume one click away.",
     description:
-      "A weekly digest that turns raw product data into a simple narrative. Built so you can read it on a Sunday with coffee.",
-    meta: "Founder & Designer, 2024",
+      "I built a single-page portfolio deployed on Vercel that highlights my full-stack work, links to live projects and GitHub repos, and gives recruiters everything they need to get in touch quickly.",
+    meta: "Full-Stack Developer, 2026",
     imageRatio: 1024 / 768,
     image:
       "https://cdn.dribbble.com/userupload/47357856/file/75841fa59f32f05ca6c5ddf02d08dfe6.png?resize=1024x768&vertical=center",
-    imageAlt: "Rhythm calm analytics mockup",
+    imageAlt: "My Old Portfolio site",
   },
   {
-    id: "groove",
-    icon: Wand2,
-    iconLabel: "Groove",
+    id: "VoiceRag",
+    icon: Voicemail,
+    iconLabel: "Voice Rag",
     title:
-      "Reimagining the booking flow for a music school, asisting thousands of students in finding the right lessons.",
+      "A voice-first AI assistant that listens in your language and answers from your own knowledge base.",
     description:
-      "I led a redesign of the lesson booking experience, cutting drop off in half and making the schedule feel like a calendar people actually want to open.",
-    meta: "Lead Designer, 2023",
+      "I built a voice-enabled RAG pipeline that turns speech into text, retrieves relevant context from multilingual datasets, and generates grounded answers, making information accessible through simple conversation.",
+    meta: "AI & Full-Stack Developer, 2026",
     imageRatio: 1024 / 768,
     image:
-      "https://cdn.dribbble.com/userupload/43955214/file/original-d4cde1de803e84b97d8892e3444c04b0.png?resize=1024x768&vertical=center",
-    imageAlt: "Groove music school booking flow mockup",
+      "https://cdn.dribbble.com/userupload/48539829/file/783a4e35f08529c63e95f8e3b0bef9e2.png?resize=1504x1128&vertical=center",
+    imageAlt: "Voice Rag Website",
   },
   {
-    id: "fieldnote",
-    icon: Layers,
-    iconLabel: "Fieldnote",
+    id: "top-10-movies",
+    icon: Video,
+    iconLabel: "Top 10 Movie",
     title:
-      "A pocket sized research tool for design teams that want to get out of their docs and into the world.",
+      "A Flask-powered movie collection site with live search, ratings, and automatic top 10 ranking.",
     description:
-      "Capture quotes, tag patterns, and synthesize themes in one place. The interface stays out of the way so the thinking can happen.",
-    meta: "Design Engineer, 2024",
+      "I developed a CRUD web app with Flask, SQLAlchemy, and WTForms that pulls movie details from an external API, stores them in a database, and ranks films by rating.",
+    meta: "Python Full-Stack Developer, 2026",
     imageRatio: 1024 / 768,
     image:
-      "https://cdn.dribbble.com/userupload/30310902/file/original-621e7fe47be9d11ee14544456c693bec.png?resize=1024x768&vertical=center",
-    imageAlt: "Fieldnote pocket sized research tool mockup",
+      "https://cdn.dribbble.com/userupload/18886167/file/original-b7134b2699927b376f8917ee9e559b85.png?resize=400x300&vertical=center",
+    imageAlt: "Top 10 movies according to me.",
   },
   {
-    id: "talkback",
-    icon: Bot,
-    iconLabel: "Talkback",
-    title: "A friendlier interface for talking to language models.",
+    id: "smartattandacesystem ",
+    icon: NotebookPen,
+    iconLabel: "Smart Attendance system",
+    title:
+      "A digital attendance system that replaces paper registers with real-time tracking, secure logins, and one-click reports.",
     description:
-      "An exploration of how AI chat could feel less like a terminal and more like a conversation with a curious friend.",
-    meta: "Independent Project, 2025",
+      "I designed and built a full-stack attendance platform where attendance is marked and monitored live, access is role-based, and records can be exported as CSV reports automatically.",
+    meta: "Full-Stack Developer, 2026",
     imageRatio: 1024 / 768,
     image:
-      "https://cdn.dribbble.com/userupload/16560717/file/original-c6f745d50302d66609bfe080f99f5396.png?resize=1024x768&vertical=center",
-    imageAlt: "Talkback friendlier AI chat interface mockup",
+      "https://cdn.dribbble.com/userupload/18073762/file/original-29825fa125f91ec9d45f32873b9f4fb5.jpg?resize=1504x1128&vertical=center",
+    imageAlt: "Smart Attendance system for college",
   },
 ];
 
