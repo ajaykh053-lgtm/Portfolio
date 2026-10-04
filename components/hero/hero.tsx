@@ -4,8 +4,8 @@ import { HeroCtas } from "./hero-ctas";
 import { FadeIn, ScaleUnblur } from "@/components/ui/motion-primitives";
 import { PortraitMorph } from "./portrait-morph";
 
-const PORTRAIT_SRC = "/josh.webp";
-const PORTRAIT_HOVER_SRC = "/josh_wave.webp";
+const PORTRAIT_SRC = "/Luffy_Referance_Photo.jpg";
+const PORTRAIT_HOVER_SRC = "/Luffy_referance_photo1.jpg";
 
 export function Hero(): ReactNode {
   return (
@@ -18,12 +18,12 @@ export function Hero(): ReactNode {
               <span aria-hidden="true" className="mx-0.5">
                 👋
               </span>
-              , I&rsquo;m Josh
+              , I&rsquo;m Ajay
             </p>
 
             <h1 className="text-[2.75rem] font-medium leading-[1.05] tracking-tight text-foreground md:text-[2.5rem] lg:text-[3.65rem]">
               <span className="block whitespace-nowrap">
-                Design engineer &
+                Python Developer &
               </span>
               <span className="block whitespace-nowrap">AI enthusiast</span>
             </h1>
@@ -42,7 +42,7 @@ export function Hero(): ReactNode {
                 <PortraitMorph
                   srcA={PORTRAIT_SRC}
                   srcB={PORTRAIT_HOVER_SRC}
-                  alt="Josh portrait"
+                  alt="Luffy portrait"
                 />
               </div>
             </div>
