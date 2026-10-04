@@ -105,7 +105,7 @@ function SocialIcon({
           width={14}
           height={14}
           aria-hidden="true"
-          className="max-h-[14px] max-w-[14px] object-contain dark:invert"
+          className="max-h-3.5 max-w-3.5 object-contain dark:invert"
         />
       ) : null}
     </Link>
