@@ -26,17 +26,17 @@ export default function AboutPage(): ReactNode {
         <FadeIn delay={0.5}>
           <div className="rounded-4xl border border-foreground/5 bg-foreground/1.5 p-8 sm:p-12 dark:bg-foreground/3">
             <h1 className="font-serif text-[1.75rem] font-medium tracking-tight text-foreground sm:text-[2rem]">
-              Hello! I&rsquo;m <span className="border-b border-foreground/30 pb-0.5">Josh Mercer</span>.
+              Hello! I&rsquo;m <span className="border-b border-foreground/30 pb-0.5">Ajay</span>.
             </h1>
             <div className="mt-8 space-y-6 text-[17px] leading-[1.7] tracking-tight text-foreground/75 sm:text-[18px]">
               <p>
-                A <strong className="font-semibold text-foreground">product designer and frontend engineer</strong> passionate about building intuitive, human-centered digital experiences. With a background in <strong className="font-semibold text-foreground">visual craft</strong> and <strong className="font-semibold text-foreground">interaction design</strong>, I bring a unique blend of design thinking and technical execution to every project.
+                A <strong className="font-semibold text-foreground">Python full-stack developer</strong> and computer science student who loves building things that actually work. I enjoy turning ideas into complete products, from <strong className="font-semibold text-foreground">database design</strong> and <strong className="font-semibold text-foreground">backend logic</strong> to clean, responsive interfaces people can use right away.
               </p>
               <p>
-                My journey into design began when I realized how often good user experience was missing from powerful tools. That led me to embrace <strong className="font-semibold text-foreground">user-centered design</strong> as both a mindset and a craft, one that balances clarity, creativity, and functionality.
+                I started with the fundamentals (C, C++, and <strong className="font-semibold text-foreground">data structures and algorithms</strong>) and then found my real spark in Python. Automating small tasks led to web scraping and bots, and that curiosity grew into full-stack apps, real-time systems, and <strong className="font-semibold text-foreground">AI-powered tools</strong> like a multilingual voice RAG pipeline. For me, building is the best way to learn, and every project is a chance to understand how something works under the hood.
               </p>
               <p>
-                Currently leading design at small product teams shipping software for <strong className="font-semibold text-foreground">creative professionals</strong>, I&rsquo;m always looking for opportunities to <strong className="font-semibold text-foreground">shape thoughtful interfaces and build scalable design systems</strong>.
+                Currently in my third year of Computer Science Engineering, I&rsquo;m sharpening my DSA and backend skills while shipping projects across web, automation, and AI. I&rsquo;m open to <strong className="font-semibold text-foreground">freelance work and internship opportunities</strong> where I can build reliable software and keep growing as an engineer.
               </p>
             </div>
           </div>
