@@ -6,10 +6,10 @@ export const siteConfig = {
     "A modern, accessible portfolio template built with Next.js, Tailwind CSS, and TypeScript.",
   url: "https://Ajay-Portfolio.com",
   ogImage: "/og-image.png",
-  creator: "@yourhandle",
+  creator: "@Ajay KH",
   authors: [
     {
-      name: "Your Name",
+      name: "Ajay",
       url: "https://Ajay-Portfolio.com",
     },
   ],
