@@ -18,12 +18,12 @@ type Polaroid = {
 };
 
 const PHOTOS: Polaroid[] = [
-  { id: "a", rotate: -8, src: "/photos/robin.jpg", alt: "Robin", caption: "Demon Child" },
-  { id: "b", rotate: 6, src: "/photos/nami.jpg", alt: "Nami", caption: "Cat Burglar" },
-  { id: "c", rotate: -4, src: "/photos/usopp.jpg", alt: "Usopp", caption: "Warrior of the Sea" },
-  { id: "d", rotate: 7, src: "/photos/luffy.jpg", alt: "Luffy", caption: "King of the Pirates" },
-  { id: "e", rotate: -6, src: "/photos/zoro.jpg", alt: "Zoro", caption: "World's Greatest Swordsman" },
-  { id: "f", rotate: 5, src: "/photos/sanji.jpg", alt: "Sanji", caption: "World's Best Cook" },
+  { id: "a", rotate: -8, src: "/photos/Robin.jpg", alt: "Robin", caption: "Demon Child" },
+  { id: "b", rotate: 6, src: "/photos/Nami.jpg", alt: "Nami", caption: "Cat Burglar" },
+  { id: "c", rotate: -4, src: "/photos/Usopp.jpg", alt: "Usopp", caption: "Warrior of the Sea" },
+  { id: "d", rotate: 7, src: "/photos/Luffy.jpg", alt: "Luffy", caption: "King of the Pirates" },
+  { id: "e", rotate: -6, src: "/photos/Zoro.jpg", alt: "Zoro", caption: "World's Greatest Swordsman" },
+  { id: "f", rotate: 5, src: "/photos/Sanji.jpg", alt: "Sanji", caption: "World's Best Cook" },
 ];
 
 const EASE = [0.22, 1, 0.36, 1] as const;
