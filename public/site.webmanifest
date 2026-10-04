@@ -1,6 +1,6 @@
 {
-  "name": "Your Site Name",
-  "short_name": "Site",
+  "name": "Ajay-Portfolio",
+  "short_name": "Portfolio",
   "description": "A modern, accessible landing page template built with Next.js, Tailwind CSS, and TypeScript.",
   "start_url": "/",
   "display": "standalone",
