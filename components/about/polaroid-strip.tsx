@@ -18,7 +18,7 @@ type Polaroid = {
 };
 
 const PHOTOS: Polaroid[] = [
-  { id: "a", rotate: -8, src: "/photos/Robin.jpg", alt: "Robin", caption: "Demon Child" },
+  { id: "a", rotate: -8, src: "/photos/robin.jpg", alt: "Robin", caption: "Demon Child" },
   { id: "b", rotate: 6, src: "/photos/Nami.jpg", alt: "Nami", caption: "Cat Burglar" },
   { id: "c", rotate: -4, src: "/photos/Usopp.jpg", alt: "Usopp", caption: "Warrior of the Sea" },
   { id: "d", rotate: 7, src: "/photos/Luffy.jpg", alt: "Luffy", caption: "King of the Pirates" },
